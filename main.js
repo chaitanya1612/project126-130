@@ -15,8 +15,8 @@ leftWristY = 0;
 
 function preload()
 {
-	song1 = loadSound("Justin Biber stay.mp4");
-	song2 = loadSound("Jelaby baby.mp4");
+	song1 = loadSound("On my way.mp3");
+	song2 = loadSound("peaches.mp3");
 }
 
 function setup() {
@@ -72,7 +72,7 @@ function draw() {
 		if(song1_status == false)
 		{
 			song1.play();
-			document.getElementById("song").innerHTML = "Playing - Stay Song"
+			document.getElementById("song").innerHTML = "Playing - On my way Song"
 		}
 	}
 
@@ -85,7 +85,7 @@ function draw() {
 		if(song2_status == false)
 		{
 			song2.play();
-			document.getElementById("song").innerHTML = "Playing - Jelaby baby Song"
+			document.getElementById("song").innerHTML = "Playing - peaches Song"
 		}
 	}
 
